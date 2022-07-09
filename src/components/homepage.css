@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #202020 ;
+  --secondary-color : #12ff00;
+}
+
+.center {
+  text-align: center;
+}
