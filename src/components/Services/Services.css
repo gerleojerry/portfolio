@@ -1,0 +1,32 @@
+.services {
+  background-color: #161616;
+  padding: 3rem 0;
+}
+
+.services__title {
+  font-size: 2rem;
+  color: white;
+  padding: .5rem 1rem;
+}
+
+.services__content {
+  margin-top: 4rem;
+}
+
+.services__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  color : white;  
+}
+
+.services__list__item {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 40%;
+  color: #d5d5d5;
+  text-align:left;
+  
+}
