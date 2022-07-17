@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header/Header.js';
 import About from './About/About';
 import Services from './Services/Services';
+import Projects from './Projects/Projects';
 import './homepage.css'
 
 function  Homepage() {
@@ -11,6 +12,7 @@ function  Homepage() {
      <Header />
      <About />
      <Services />
+     <Projects />
     </div>
   )
 }
