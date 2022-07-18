@@ -3,7 +3,9 @@ import Header from './header/Header.js';
 import About from './About/About';
 import Services from './Services/Services';
 import Projects from './Projects/Projects';
-import './homepage.css'
+import Contact from './Contact/Contact';
+import './homepage.css';
+import Footer from './Footer/Footer';
 
 function  Homepage() {
   return (
@@ -13,6 +15,8 @@ function  Homepage() {
      <About />
      <Services />
      <Projects />
+     <Contact />
+     <Footer />
     </div>
   )
 }

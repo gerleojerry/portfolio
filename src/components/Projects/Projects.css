@@ -4,6 +4,11 @@
   color:  white;
 }
 
+.projects__container {
+  width: 70%;
+  margin: auto;
+}
+
 .projects__header {
   margin-bottom: 2rem;
   font-size: 2rem;

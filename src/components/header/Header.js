@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import {AiOutlineCloudDownload} from 'react-icons/ai'
+import {AiOutlineCloudDownload, AiFillGithub} from 'react-icons/ai'
 import {BiDownArrowCircle} from 'react-icons/bi'
 import {FaGoogle, FaWhatsapp , FaFacebook, FaLinkedin} from 'react-icons/fa'
 function Header(){
@@ -30,7 +30,9 @@ function Header(){
           {/* SOCIAL MEDIA SECTION  */}
           <div className='header__social'>
 
-          <a className='header__social__link' href='https://gmail.com'> <div className='header__social__icon header__social__facebook' > <FaFacebook color='white' size={20} /> </div> </a>  
+          <a className='header__social__link' href='https://gmail.com'> <div className='header__social__icon header__social__facebook' > <FaFacebook color='white' size={20} /> </div> </a> 
+
+          <a className='header__social__link' href='https://gmail.com'> <div className='header__social__icon header__social__github' > <AiFillGithub color='white' size={20} /> </div> </a>  
 
           <a className='header__social__link' href='https://gmail.com'> <div className='header__social__icon header__social__whatsapp' > <FaWhatsapp color='white' size={20} /> </div> </a>
 

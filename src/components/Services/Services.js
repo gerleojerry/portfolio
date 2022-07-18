@@ -35,7 +35,7 @@ function Services() {
 
       </section>
 
-      <section class='qualifications'>
+      <section className='qualifications'>
         <div className='container'> 
           <h2>QUALIFICATIONS</h2>
 

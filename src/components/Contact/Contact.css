@@ -1,0 +1,117 @@
+.contact {
+  background: #161616;
+  padding: 5rem 0;
+  text-align: left;
+}
+
+.contact__container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.contact__container > * {
+  flex-basis: 50%;
+  color: white;
+}
+
+.contact__address {
+  background-color: #272727;
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 0;
+  border-top-left-radius: 15px ;
+  border-bottom-left-radius: 15px ;
+}
+
+.contact__title {
+  color: white;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.contact__title::after {
+  position: absolute;
+  content: ' ';
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 60%;
+  height: 3px;
+  background-color :white;
+}
+
+.contact__content {
+  margin-top: 3rem;
+}
+
+.contact__phone, .contact__mail, .contact__location {
+  margin: 1.5rem 0;
+}
+.contact__icons {
+  font-size: 1.1rem;
+  margin-right: .5rem;
+}
+
+.contact__message {
+  padding: 2rem;
+  padding-left: 4rem;
+  background-color: #202020;
+  border-top-right-radius: 15px ;
+  border-bottom-right-radius: 15px ;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  margin: .8rem 0;
+}
+
+.form__sender__details {
+  display: flex;
+  gap: 2rem;
+}
+
+.form__small {
+  flex-basis: 40%;
+}
+
+.form__big {
+  flex-basis: 60%;
+}
+
+.form__label {
+  margin-bottom: .4rem;
+}
+
+.form__input {
+  background-color: #343434;
+  border: transparent;
+  outline: none;
+  padding: .5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.form__button {
+  padding: .4rem .6rem;
+  background-color: var(--secondary-color);
+  border: 1px solid transparent;
+  font-size: 1.05rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.form__button:active {
+  transform: scale(0.97);
+}
+
+.form__button__icon {
+  font-size: 1.05rem;
+  margin-left: 3px;
+}
