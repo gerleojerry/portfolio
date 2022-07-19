@@ -6,7 +6,7 @@ function Footer() {
     <>
       <section className='footer' >
         <div className='footer__content'>
-          
+          © 2022 Oluborode Jeremiah, All rights reserve
         </div>
       </section>
     </>

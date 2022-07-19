@@ -37,24 +37,42 @@ function Services() {
 
       <section className='qualifications'>
         <div className='container'> 
-          <h2>QUALIFICATIONS</h2>
+          <div className='qualifications__main'>
+            <h2>QUALIFICATIONS</h2>
 
-          <div className='qualifications__content'>
+            <div className='qualifications__content'>
 
-            <div className='qualifications__content__data'>
-              <div className='qualifications__date'>2016 - 2022</div>
+              <div className='qualifications__content__data'>
+                <div className='qualifications__date'>2016 - 2022</div>
 
-              <div className='qualifications__position'> Computer Science and Engineering. </div>
+                <div className='qualifications__position'> Computer Science and Engineering. </div>
 
-              <div className='qualifications__organization'>Ladoke Akintola University of Technology, Ogbomoso.</div>
+                <div className='qualifications__organization'>Ladoke Akintola University of Technology, Ogbomoso.</div>
+              </div>
+
+              <div className='qualifications__content__data'>
+                <div className='qualifications__date'>2021 - 2022</div>
+
+                <div className='qualifications__position'> Data Science (Intern) </div>
+
+                <div className='qualifications__organization'>LAUTECH Data Science, Ogbomoso.</div>
+              </div>
+
             </div>
+          </div>
 
-            <div className='qualifications__content__data'>
-              <div className='qualifications__date'>2021 - 2022</div>
+          <div className='qualifications__skills'>
 
-              <div className='qualifications__position'> Data Science (Intern) </div>
+            <h2 className='skills__title' >SKILLS</h2>
 
-              <div className='qualifications__organization'>LAUTECH Data Science, Ogbomoso.</div>
+            <div className='skills__content' >
+              <div className='skills__item'>HTML</div>
+              <div className='skills__item'>CSS</div>
+              <div className='skills__item'>JavaScript</div>
+              <div className='skills__item'>TypeScript</div>
+              <div className='skills__item'>React</div>
+              <div className='skills__item'>Git &amp; Github</div>
+              <div className='skills__item'>Python</div>
             </div>
 
           </div>

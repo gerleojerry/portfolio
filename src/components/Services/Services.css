@@ -43,6 +43,21 @@
   color: white
 }
 
+.qualifications .container {
+  display: flex;
+  text-align: left;
+  gap: 3rem;
+}
+
+.qualifications__main, .qualifications__skills {
+  flex-basis: 50%;
+}
+
+.qualifications__skills {
+  padding-left: 3rem;
+
+}
+
 .qualifications__content {
   text-align: left;
   margin: 3rem 0;
@@ -66,4 +81,14 @@
 .qualifications__organization {
   color: #d5d5d5;
   font-size: .95rem;
+}
+
+.skills__title {
+  margin-bottom: 2rem;
+}
+
+.skills__item {
+  margin: 1.2rem 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
