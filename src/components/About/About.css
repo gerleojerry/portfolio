@@ -1,0 +1,36 @@
+.about {
+  background-color: #161616;
+  padding: 5rem 0;
+}
+
+.about__header {
+  position: relative;
+  color:white;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.about__header::after {
+  content: '';
+  position :absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background-color: var(--secondary-color);
+}
+
+.about__content {
+  color: #828282;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+}
+
+.about__paragraph {
+  margin: 1rem;
+  line-height: 1.3;
+}

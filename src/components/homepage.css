@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #202020 ;
+  --secondary-color : #12ff00;
+}
+
+.container {
+  width: 60%;
+  margin:auto;
+}
+
+.center {
+  text-align: center;
+}
