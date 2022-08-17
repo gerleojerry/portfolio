@@ -8,7 +8,7 @@ import './Contact.css';
 function Contact() {
   return (
     <>
-      <section className="contact">
+      <section id='contact' className="contact">
 
         <div className="contact__container">
 

@@ -9,7 +9,7 @@ import Footer from './footer/Footer';
 
 function  Homepage() {
   return (
-    <div className='homepage'>
+    <div id='projects' className='homepage'>
      
      <Header />
      <About />
