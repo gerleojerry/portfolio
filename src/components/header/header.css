@@ -5,17 +5,17 @@
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   background-color: var(--primary-color);
-  height: 100vh;
   position: relative;
+  width: 100%;
 }
 
 .header__left, .header__right {
   position: absolute;
-  top: 0;
-  height: 100vh;
+  top: 10vh;
+  min-height: 90vh;
 }
 
 .header__left  {
@@ -76,6 +76,7 @@ header {
 
 .header__cta__icon {
   margin-right: 5px;
+  display: flex;
 }
 
 .header__cv {
@@ -98,7 +99,7 @@ header {
   display: flex;
   padding: 1rem 0;
   margin-bottom: 3rem;
-  
+  justify-content: space-between; 
 }
 
 .header__social__icon {
@@ -122,19 +123,13 @@ header {
 
 
 
-
-
-
-
-
-
-
 .header__right  {
   right: 0;
   width: 60%;
   background-position: left;
   background-size: cover;
   z-index: 1;
+  height: 97.5vh;
 }
 
 .header__right::after {
@@ -158,16 +153,21 @@ header {
   list-style-type : none;
   color:white;
   position: absolute;
-  top: .7rem;
+  top: 0;
   z-index : 5;
   display: flex;
   padding: 1rem 0;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  opacity: 0.8;
 }
 
 .header__nav__item  {
-  padding: .1rem 2.5rem;
+  padding: .1rem 2rem;
   white-space:nowrap ;
 }
 
@@ -183,4 +183,59 @@ header {
 .header__nav__item a:hover {
   color: var(--secondary-color);
   border-bottom: 1.5px solid var(--secondary-color);
+}
+
+/* Break Points: 830px, 500px;  */
+
+@media (max-width: 830px) {
+  .header__left, .header__right {
+    position: static;
+  }
+
+  .header__left {
+    width: 100% ;
+    clip-path: none;
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  .header__right {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__left {
+    padding-top: 5rem;
+  }
+  .header__nav__item  {
+    padding: .1rem .9rem;
+    white-space:nowrap ;
+  }
+}
+@media (max-width: 400px) {
+  .header__left {
+    padding-top: 6rem;
+  }
+  .header__nav__item  {
+    padding: .1rem .4rem;
+    white-space:nowrap ;
+  }
+
+  .header__left__content {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+  }
+
+  .header__social__icon {
+    margin-right: 1rem;
+  }
+  .header__link {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    place-items: center;
+    padding: 10px;
+  }
 }

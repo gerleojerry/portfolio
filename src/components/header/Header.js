@@ -10,7 +10,7 @@ function Header(){
 
         {/* THIS IS THE LEFT SIDE OF THE HEADER  */}
         <div className="header__left">
-
+ 
           <div className='header__left__content' >
           <h2 className='header__title'>JEREMIAH OLUBORODE</h2>
           <h1 className='header__subtitle '> WEB DEVELOPER. </h1>
