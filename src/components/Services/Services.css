@@ -54,7 +54,6 @@
 
 .qualifications__skills {
   padding-left: 3rem;
-
 }
 
 .qualifications__content {
@@ -92,6 +91,8 @@
   text-transform: uppercase;
 }
 
+/* ==========  MEDIA QUERY FOR SMALLER DEVICE ============= */
+
 @media (max-width: 768px) {
 
   .services__list {
@@ -114,6 +115,20 @@
     margin:  0;
   }
 
+  .qualifications .container {
+    display: block;
+  }
 
+
+  .qualifications__skills {
+    padding-left: 0rem;
+    padding-top: 2rem;
+  
+  }
+
+  .qualifications__content {
+    text-align: left;
+    margin: 1rem 0;
+  }
 
 }

@@ -5,7 +5,7 @@ import {BsArrowRight} from 'react-icons/bs';
 function Projects() {
   return (
     <>
-
+ 
       <section className='projects' id='projects'>
         <div className='projects__container'>
 
@@ -20,7 +20,7 @@ function Projects() {
                 <a className='projects__card__links projects__card__code' href='https://github.com/gerleojerry/website6' >View Code <BsArrowRight size={20} className='projects__icon'/> </a>
                 <a href='https://gerleo-website6.netlify.app/' className='projects__card__links projects__card__preview' >Live Preview</a>
               </div>
-            </div>
+            </div> 
             
             <div className='projects__card'>
               <img className='projects__card__img' src='images/koffee.png' alt='' />     

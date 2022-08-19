@@ -58,7 +58,7 @@ function Services() {
                 <div className='qualifications__organization'>LAUTECH Data Science, Ogbomoso.</div>
               </div>
 
-            </div>
+            </div> 
           </div>
 
           <div className='qualifications__skills'>
