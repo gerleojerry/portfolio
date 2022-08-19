@@ -6,10 +6,12 @@
 .about__header {
   position: relative;
   color:white;
-  padding: .5rem 1rem;
+  padding: .7rem 1rem;
   font-size: 2rem;
-  width: fit-content;
   margin: auto;
+  margin-bottom: 3rem;
+  width: max-content;
+
 }
 
 .about__header::after {

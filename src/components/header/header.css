@@ -15,7 +15,7 @@ header {
 .header__left, .header__right {
   position: absolute;
   top: 10vh;
-  min-height: 90vh;
+  min-height: 97.5vh;
 }
 
 .header__left  {

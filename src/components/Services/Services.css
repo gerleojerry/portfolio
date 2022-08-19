@@ -19,7 +19,7 @@
   justify-content: space-between;
   padding: 1rem 0;
   margin: 1rem 0;
-  color : white;  
+  color : white; 
 }
 
 .services__list__item {
@@ -28,7 +28,6 @@
   width: 40%;
   color: #d5d5d5;
   text-align:left;
-  
 }
 
 .services__icons {
@@ -91,4 +90,30 @@
   margin: 1.2rem 0;
   font-size: 1.1rem;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+
+  .services__list {
+    display: block;
+    padding: 1rem 0;
+    color : white; 
+    margin: 0;
+    padding : 0;
+  }
+
+  .services__list__item {
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    color: #d5d5d5;
+    text-align:left;
+    padding: .9rem;
+    display: flex;
+    align-items: center;
+    margin:  0;
+  }
+
+
+
 }
