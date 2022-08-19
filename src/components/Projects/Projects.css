@@ -81,3 +81,25 @@
 .projects__icon {
   padding-top: 8px;
 }
+
+@media (max-width: 830px) {
+
+  .projects__container {
+    width: 90%;
+    margin: auto;
+  }
+  
+
+  .projects__content {
+    display: block;
+  }
+
+  .projects__card {
+    width: 80%;
+    background-color: #292929;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px  #111;
+    margin: 3rem auto;
+  }
+}
