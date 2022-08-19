@@ -4,7 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai';
 import {ImLocation} from 'react-icons/im';
 import {IoIosSend} from 'react-icons/io';
 import './Contact.css';
-
+ 
 function Contact() {
   return (
     <>
