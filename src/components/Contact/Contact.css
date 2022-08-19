@@ -119,7 +119,7 @@
 
 @media (max-width: 1000px) {
   .contact__title::after {
-    width: 60%;
+    width: 50%;
   }
 
   .contact__container {
