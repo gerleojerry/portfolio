@@ -10,7 +10,8 @@
 }
 
 .projects__header {
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
+  margin-top: -2rem;
   font-size: 2rem;
   position: relative;
   padding : 1rem;

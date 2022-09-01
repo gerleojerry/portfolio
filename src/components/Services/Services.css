@@ -1,12 +1,14 @@
 .services {
   background-color: #1d1d1d;
-  padding: 5rem 0;
+  padding-bottom: 5rem;
+  border: 1px solid transparent;
 }
 
 .services__title {
   font-size: 2rem;
   color: white;
   padding: .5rem 1rem;
+  margin: 3rem auto;
 }
 
 .services__content {
